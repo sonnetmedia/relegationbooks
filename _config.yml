@@ -29,7 +29,7 @@ exclude: ['readme.md','license.md','Gemfile','links.jsonp', 'CNAME', 'rakefile',
 # if site is in production, 'production: true'
 production: false
 use_pure_css: false
-use_jquery: true
+use_jquery_cdn: false
 include_font_awesome: false
 include_addthis_sharing: false
 bust_css_cache: true
@@ -46,6 +46,6 @@ simple_form_api_token:
 twitter_id: budparr
 
 # navigation options - effects layout/default. May also need options set in sass files
-include_nav-top: false
-include_nav-side-left: true
+include_nav-top: true
+include_nav-side-left: false
 include_nav-side-right: false

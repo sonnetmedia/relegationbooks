@@ -1,5 +1,5 @@
 header.navigation {
-  $navigation-background: $dark-gray;
+  $navigation-background: $dark-gray !default;
   $navigation-color: transparentize(white, 0.3);
   $navigation-color-hover: white;
   $navigation-height: 60px;
@@ -23,7 +23,7 @@ header.navigation {
   }
 
   .logo {
-    float: left;    
+    float: left;
     max-height: $navigation-height;
     padding-left: 1em;
     padding-right: 2em;
@@ -61,7 +61,7 @@ header.navigation {
     }
   }
 
-  ul#navigation-menu {    
+  ul#navigation-menu {
     clear: both;
     -webkit-transform-style: preserve-3d; // stop webkit flicker
     display: none;
@@ -115,9 +115,9 @@ header.navigation {
       a {
         @include transition (all 0.2s ease-in-out);
         background: $navigation-nav-button-background;
-        border-radius: $base-border-radius; 
+        border-radius: $base-border-radius;
         color: white;
-        font-size: .8em;  
+        font-size: .8em;
         font-weight: 800;
         padding: .6em 1em;
         text-transform: uppercase;
@@ -146,7 +146,7 @@ header.navigation {
     $search-bar-background: lighten($search-bar-border-color, 10);
 
     width: 19em;
-    position: relative; 
+    position: relative;
     display: inline-block;
 
     input {
