@@ -1,14 +1,14 @@
-baseurl: http://jekyll-starter.pubspringdev1.com
-sitename: 'Jekyll Starter'
-description: 'A base Jekyll theme'
+baseurl: http://relegationbooks.pubspringdev1.com
+sitename: 'Relagation Books'
+description: 'Craft Publishing'
 # do not include  https://github.com/...
-repo: 'budparr/jekyll-starter'
-branch: master
+repo: 'sonnetmedia/relegationbooks'
+branch: gh-pages
 default_author: "Bud Parr"
 
 #Jekyll Options
 # if using more than one Jekyll instance on your local machine
-# port:
+port: 4001
 # paginate tells Jekyll how many posts per page
 # paginate: 1
 # Permalinks
