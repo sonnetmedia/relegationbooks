@@ -27,15 +27,15 @@ exclude: ['readme.md','license.md','Gemfile','links.jsonp', 'CNAME', 'rakefile',
 
 # dev options (true/false)
 # if site is in production, 'production: true'
-production: false
+production: true
 use_pure_css: false
 use_jquery_cdn: true
 include_font_awesome: false
-include_addthis_sharing: false
+include_addthis_sharing: true
 bust_css_cache: true
 
 # options (data)
-google_analytics_id: UA-XXXXXXX-X
+google_analytics_id: UA-50141097-1
 disqus_id:
 addthis_id:
 # CONTACT FORM http://getsimpleform.com/
