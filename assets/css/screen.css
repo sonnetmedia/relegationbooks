@@ -3,4 +3,4 @@ p:first-child,h1+p,h2+p,h3+p,h4+p,h5+p,h6+p,hr+p{text-indent:0}aside.sidebar-rig
 .content_splash{margin-top:0;background-color:#fff;min-height:600px}@media screen and (min-width: 56.25em){.content_splash{margin-top:500px}}
 footer{background-color:#333;padding:4em;font-size:90%;min-height:400px}footer a{color:#999}footer a:hover{color:#FFF}.wrapper{background:url(/assets/img/relegation-and-tagline-halfsize.png) no-repeat 50% 3%}@media screen and (min-width: 68.75em){.wrapper{background:url(/assets/img/relegation-and-tagline.png) no-repeat 50% 9%}}
 .splash h1{text-align:center;color:#FFF;text-transform:uppercase}@media screen and (min-width: 26.25em){.splash h1{display:none}}
-.title-image{text-align:center;margin:3% 15%}@media screen and (min-width: 56.25em){.title-image{display:none}}
+.title-image{max-width:90%;text-align:center;padding-top:2em;padding-left:15%}@media screen and (min-width: 56.25em){.title-image{display:none}}
