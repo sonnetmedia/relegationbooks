@@ -1,10 +1,11 @@
 ---
-layout: alt
+layout: page
 permalink: /
 sidebar_include: "snippets/article-latest.html"
 sharing: false
 published: true
 category: home
+splash_image: https://s3.amazonaws.com/ooomf-com-files/MFqGDInrRoC7l5f86CN0_IMG_9852.jpg
 ---
 >“If we can't have everything, true perfection is nothingness.”  
 *-- Guido Anselmi (8 1/2)*

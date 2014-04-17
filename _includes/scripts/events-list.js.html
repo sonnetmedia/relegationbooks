@@ -12,8 +12,8 @@ var timing = function(start, end) {
 };
 
 $(document).ready(function() {
-var eventAPI = "http://rrobinson.pubspringdev1.com/api/cal.json?callback=?";
-//var eventAPI = "{{site.baseurl}}/api/events.json";
+//var eventAPI = "http://rrobinson.pubspringdev1.com/api/cal.json?callback=?";
+var eventAPI = "{{site.baseurl}}/api/events.json";
 
   $.getJSON(
 
@@ -22,7 +22,12 @@ var eventAPI = "http://rrobinson.pubspringdev1.com/api/cal.json?callback=?";
   
     format: "json",
      dataType: "jsonp",
+      cache: false,
+        
 
+ fail: function( response ) {
+        console.log( response ); // server response
+    }
 
   })
 

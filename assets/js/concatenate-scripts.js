@@ -1,7 +1,6 @@
 ---
 ---
 {% include scripts/libs/jquery.min.js %}
-
 {% include scripts/libs/underscore.min.js %}
 {% include scripts/libs/moment.min.js %}
 {% include scripts/widow-control.js %}

@@ -1,10 +1,11 @@
 {% if site.use_jquery_cdn == true %}
-	<script src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+	<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
 	<script>window.jQuery || document.write('<script src="{{site.baseurl}}/assets/js/jquery.min.js" }}"><\/script>')</script>
 {% endif %}
 
-
-		
+{% comment %}
+	<script src="{{site.baseurl}}/assets/js/concatenate-scripts.js"></script>
+{% endcomment %}
 
 <script src="{{site.baseurl}}/assets/js/underscore.min.js"></script>
 <script src="{{site.baseurl}}/assets/js/moment.min.js"></script>
