@@ -1,6 +1,6 @@
 baseurl: http://relegationbooks.pubspringdev1.com
-sitename: 'Relagation Books'
-description: 'Craft Publishing'
+sitename: 'Relegation Books'
+description: 'Craft Publishing Literary Fiction of Fine Vintage'
 # do not include  https://github.com/...
 repo: 'sonnetmedia/relegationbooks'
 branch: gh-pages

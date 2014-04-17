@@ -1,6 +1,6 @@
 // This module may be incompatible with sidebar-right
 
-$splash-height: 400px !default;
+$splash-height: 500px !default;
 $splash-color: #999 !default;
 $splash-color-background:#DDD !default;
 
@@ -10,7 +10,7 @@ $splash-color-background:#DDD !default;
 	height: $splash-height;
 	overflow: visible;
 	display: none;
-	background-position:50% 50%;
+	background-position:50% 0%;
 
 		@include media($d-vp) {
 			display: block;
