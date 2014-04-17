@@ -29,7 +29,7 @@ exclude: ['readme.md','license.md','Gemfile','links.jsonp', 'CNAME', 'rakefile',
 # if site is in production, 'production: true'
 production: false
 use_pure_css: false
-use_jquery_cdn: false
+use_jquery_cdn: true
 include_font_awesome: false
 include_addthis_sharing: false
 bust_css_cache: true

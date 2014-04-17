@@ -1,13 +1,38 @@
+<script>
+// TODO: [X]Times show an extra 0 <-- going to leave this
+// TODO: [X]reverse ordering for past events (can fix with json file, but rather not)
+// TODO: [X]conditionals to not show missing content
+// TODO: [X]Links - taking out - put all info in the main post
+
+
 // REQUIRES MOMENT.JS AND UNDERSCORE.JS
 var timing = function(start, end) {
-
+  // this can be improved another time <--seattlehacks
   return moment(start).format('MM/DD/YYYY h:mma') + ' - ' + moment(end).format('MM/DD/YYYY h:mma');
 };
 
 $(document).ready(function() {
+var eventAPI = "http://rrobinson.pubspringdev1.com/api/cal.json?callback=?";
+//var eventAPI = "{{site.baseurl}}/api/events.json";
+
+  $.getJSON(
 
 
-  $.getJSON('{{site.baseurl}}/api/events.json', null, function(response) {
+ eventAPI, {
+  
+    format: "json",
+     dataType: "jsonp",
+
+
+  })
+
+
+
+.done(function(response) {
+
+
+ 
+
 
 
 
@@ -149,4 +174,4 @@ if(event.name) {
 
   });
 });
-//END events-list.js
+    </script>

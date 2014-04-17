@@ -8,4 +8,4 @@
 {% include scripts/accordian.js %}
 {% include scripts/nav-top-mobile.js %}
 {% include scripts/smooth-scroll.js %}
-{% include scripts/events-list.js %}
+//include scripts/events-list.js %}
