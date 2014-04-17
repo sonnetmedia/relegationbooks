@@ -37,4 +37,6 @@ Dallas Hudgens is the author of the story collection *Wake Up, We’re Here* (Re
 
 ---
 
+#### Follow us on Twitter: [twitter.com/@relegationbooks](http://twitter.com/relegationbooks)
+
 {% include snippets/form-mailchimp-signup.html %}
