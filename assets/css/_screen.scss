@@ -54,8 +54,9 @@
 .title-image{
 	max-width: 98%;
 	text-align: center;
+	margin: auto;
 	padding-top: 2em;
-	padding-left: 15%;
+	padding-left: 1em;
 	@include media ($d-vp) {
 		display: none;
 	}
