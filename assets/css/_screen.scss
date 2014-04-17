@@ -29,8 +29,37 @@
 @import "_sass/modules/footer";
 
 .wrapper {
+	background: url(/assets/img/relegation-and-tagline-halfsize.png) no-repeat 50% 3%;
+	
+//background: url(/assets/img/relegation-and-tagline-halfsize-blacktext.png) no-repeat 50% 3%;
 
-	background: url(/assets/img/relegation-and-tagline.png) no-repeat 50% 9%;
+	@include media ($e-vp) {
+		background: url(/assets/img/relegation-and-tagline.png) no-repeat 50% 9%;
+}
+
+}
+
+
+.splash h1{
+	text-align: center;
+	color: #FFF;
+	text-transform: uppercase;
+	@include media ($small-screen-up) {
+			display: none;
+
+}
+
+
+}
+.title-image{
+
+	text-align: center;
+	margin: 3% 15%;
+
+@include media ($d-vp) {
+display: none;
+
+}
 
 }
 

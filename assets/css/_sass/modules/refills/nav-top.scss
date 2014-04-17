@@ -1,5 +1,6 @@
 header.navigation {
   $navigation-background: $dark-gray !default;
+  $navigation-background-mobile: #191919;
   $navigation-color: transparentize(white, 0.3);
   $navigation-color-hover: white;
   $navigation-height: 60px;
@@ -9,7 +10,15 @@ header.navigation {
   $navigation-search-background: lighten($navigation-background, 5);
   $navigation-search-border: 1px solid darken($navigation-background, 5);
 
-  background-color: $navigation-background;
+  
+background-color: $navigation-background-mobile; // <--Mobile
+
+
+@include media($d-vp) { 
+  
+  background-color: $navigation-background; // <-- desktop
+}
+
   border-bottom: 1px solid darken($navigation-background, 10);
   font-family: $sans-serif;
   height: $navigation-height;
@@ -79,7 +88,7 @@ header.navigation {
   }
 
   ul li {
-    background: $navigation-background;
+    background: $navigation-background-mobile;
     display: block;
     line-height: $navigation-height;
     overflow: hidden;
@@ -92,6 +101,7 @@ header.navigation {
       background: transparent;
       display: inline;
       line-height: $navigation-height;
+      background: $navigation-background;
       padding-right: 2em;
       text-decoration: none;
       width: auto;

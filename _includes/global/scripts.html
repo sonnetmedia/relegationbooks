@@ -7,6 +7,26 @@
 	<script src="{{site.baseurl}}/assets/js/concatenate-scripts.js"></script>
 {% endcomment %}
 
-<script src="{{site.baseurl}}/assets/js/underscore.min.js"></script>
-<script src="{{site.baseurl}}/assets/js/moment.min.js"></script>
-{% include scripts/events-list.js.html  %}
+
+{% if page.url contains '/events/' %}
+	<script src="{{site.baseurl}}/assets/js/underscore.min.js"></script>
+	<script src="{{site.baseurl}}/assets/js/moment.min.js"></script>
+	{% include scripts/events-list.js.html  %}
+{% endif %}
+
+
+<script>
+  $(function() {
+    var menu = $('#navigation-menu');
+    var menuToggle = $('#js-mobile-menu');
+
+    $(menuToggle).on('click', function(e) {
+      e.preventDefault();
+      menu.slideToggle(function(){
+        if(menu.is(':hidden')) {
+          menu.removeAttr('style');
+        }
+      });
+    });
+  });
+</script>
