@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /
-sidebar_include: "snippets/article-latest.html"
+#sidebar_include: "snippets/article-latest.html"
 sharing: false
 published: true
 category: latest news
