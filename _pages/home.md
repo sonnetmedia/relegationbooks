@@ -8,6 +8,8 @@ category: latest news
 splash_image: splash.jpg
 ---
 
+[**_On Bittersweet Place_ included on The Millions' "Most Anticipated" list.**](http://www.themillions.com/2014/07/most-anticipated-the-great-second-half-2014-book-preview.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+themillionsblog%2Ffedw+(The+Millions)
+
 [**Read about the origin of Relegation Books at The Millions**](http://www.themillions.com/2012/04/adventures-in-self-publishing-dallas-hudgens-wake-up-were-here.html)  
 
 [**Washingtonian.com reports on Relegation Books imprint Stillhouse Press**](http://www.washingtonian.com/blogs/capitalcomment/books/relegation-books-launches-student-run-imprint-at-gmu.php)
