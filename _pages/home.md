@@ -10,12 +10,14 @@ splash_image: splash.jpg
 
 [**_On Bittersweet Place_ included on The Millions' "Most Anticipated" list.**](http://www.themillions.com/2014/07/most-anticipated-the-great-second-half-2014-book-preview.html)
 
-[**Read about the origin of Relegation Books at The Millions**](http://www.themillions.com/2012/04/adventures-in-self-publishing-dallas-hudgens-wake-up-were-here.html)  
+[**Read about the origin of Relegation Books at The Millions**](http://www.themillions.com/2012/04/adventures-in-self-publishing-dallas-hudgens-wake-up-were-here.html)
 
 [**Washingtonian.com reports on Relegation Books imprint Stillhouse Press**](http://www.washingtonian.com/blogs/capitalcomment/books/relegation-books-launches-student-run-imprint-at-gmu.php)
 
 
-## Coming in September 2014. “On Bittersweet Place” A Novel by Ronna Wineberg.
+## Out Now “On Bittersweet Place” A Novel by Ronna Wineberg.
+
+Buy from: [IndieBound](http://www.indiebound.org/book/9780984764815) | [Powells](http://www.powells.com/biblio/61-9780984764815-0) | [Barnes & Noble](http://www.barnesandnoble.com/w/on-bittersweet-place-ronna-wineberg/1119681525?ean=9780984764815) | [Amazon](http://www.amazon.com/Bittersweet-Place-Ronna-Wineberg/dp/098476481X/ref=sr_1_1?s=books&ie=UTF8&qid=1410915949&sr=1-1&keywords=on+bittersweet+place)
 
 ![](/assets/img/on-bittersweet-place_300x463.jpg)*On Bittersweet Place* is the powerful coming-of-age story of Lena Czernitski, a young Russian Jew whose family flees their homeland in the Ukraine after the October Revolution.  The story unfolds in Chicago during the Jazz Age of the 1920's, where Lena's impoverished family has settled and where she must traverse the early years of adolescence.  Lena's new world is large and beautiful and full of promise, but it is also cold and unwelcoming and laden with danger.  Ronna Wineberg delivers a moving, universal story of family, self-discovery, young love, and the always relevant experience of the immigrant, the refugee, the outsider struggling to create a new home and a better life in an unfamiliar place.
 
@@ -32,7 +34,7 @@ splash_image: splash.jpg
 
 ## *Wake Up, We're Here*
 
-![](/assets/img/9780984764808-ppbk.jpg) In these collected stories of deeply human, flawed men and women in search of connection, consolation and better odds, Dallas Hudgens once again taps into the powerful and resonant view of ordinary lives made less so that has earned him national praise for his novels, *Drive Like Hell* and *Season of Gene*. In a Nation’s Capital fully occupied by the ninety-nine percent, going about the business of their lives, and in Detroit, Buffalo, Winnipeg, Oxnard and Tampa, life lays down its rhythm in dreams, promises and bills, the truth in neon light through the hazy smoke, and the telltale beat of inconstant hearts, foreclosures, and the everyday rigors of smoking, drinking, working, parenting, cheating, and praying that just one break could make it. America, down on her luck, ready for redemption, has never looked closer than this, or more like us. 
+![](/assets/img/9780984764808-ppbk.jpg) In these collected stories of deeply human, flawed men and women in search of connection, consolation and better odds, Dallas Hudgens once again taps into the powerful and resonant view of ordinary lives made less so that has earned him national praise for his novels, *Drive Like Hell* and *Season of Gene*. In a Nation’s Capital fully occupied by the ninety-nine percent, going about the business of their lives, and in Detroit, Buffalo, Winnipeg, Oxnard and Tampa, life lays down its rhythm in dreams, promises and bills, the truth in neon light through the hazy smoke, and the telltale beat of inconstant hearts, foreclosures, and the everyday rigors of smoking, drinking, working, parenting, cheating, and praying that just one break could make it. America, down on her luck, ready for redemption, has never looked closer than this, or more like us.
 
 **Buy from [Amazon.com](http://www.amazon.com/Wake-Were-Here-Dallas-Hudgens/dp/0984764801/)  or [Your local bookstore](http://www.indiebound.org/book/9780984764808)**
 
