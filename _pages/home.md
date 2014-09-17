@@ -17,7 +17,7 @@ splash_image: splash.jpg
 
 ## Out Now “On Bittersweet Place” A Novel by Ronna Wineberg.
 
-Buy from: [IndieBound](http://www.indiebound.org/book/9780984764815) | [Powells](http://www.powells.com/biblio/61-9780984764815-0) | [Barnes & Noble](http://www.barnesandnoble.com/w/on-bittersweet-place-ronna-wineberg/1119681525?ean=9780984764815) | [Amazon](http://www.amazon.com/Bittersweet-Place-Ronna-Wineberg/dp/098476481X/ref=sr_1_1?s=books&ie=UTF8&qid=1410915949&sr=1-1&keywords=on+bittersweet+place)
+Buy from: [IndieBound](http://www.indiebound.org/book/9780984764815)   |   [Powells](http://www.powells.com/biblio/61-9780984764815-0)   |   [Barnes & Noble](http://www.barnesandnoble.com/w/on-bittersweet-place-ronna-wineberg/1119681525?ean=9780984764815)   |   [Amazon](http://www.amazon.com/Bittersweet-Place-Ronna-Wineberg/dp/098476481X/ref=sr_1_1?s=books&ie=UTF8&qid=1410915949&sr=1-1&keywords=on+bittersweet+place)
 
 ![](/assets/img/on-bittersweet-place_300x463.jpg)*On Bittersweet Place* is the powerful coming-of-age story of Lena Czernitski, a young Russian Jew whose family flees their homeland in the Ukraine after the October Revolution.  The story unfolds in Chicago during the Jazz Age of the 1920's, where Lena's impoverished family has settled and where she must traverse the early years of adolescence.  Lena's new world is large and beautiful and full of promise, but it is also cold and unwelcoming and laden with danger.  Ronna Wineberg delivers a moving, universal story of family, self-discovery, young love, and the always relevant experience of the immigrant, the refugee, the outsider struggling to create a new home and a better life in an unfamiliar place.
 
