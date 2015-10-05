@@ -1,0 +1,46 @@
+{% extends "templates/partials/base.html" %}
+{% block title %}{% parent %} - Events {{ item.name }}{% endblock %}
+{% block content %}
+{% set events = cms.events %}
+{% set events = events|sort('start_date') %}
+{% set events_past = events|sort('start_date', true) %}
+{% set start_time = events.start_date|date('g:ia') %}
+  <div class="has-layout">
+    <article class="hentry {% if item.class %}{{page.class}}{% endif %}">
+      <header>
+          <h1 class="entry-title">Upcoming Events</h1>        
+      </header>
+    <div class="entry-content prose">
+      {% if item.featured_image %}
+        <img src="{{ item.featured_image|imageSize(700) }}" />
+      {% endif %}
+      {{ item.copy|safe }}
+          
+        {% for event in events %}
+          {% if event.end_date %}
+            {% set event_date = event.end_date|date('U') %}
+          {% else %}
+            {% set event_date = event.start_date|date('U') %}
+          {% endif %}
+
+          {% if event.start_date && event_date > current_unix_date %}
+          <div class="listings" style="margin-bottom:3em;">
+            {% include "templates/partials/listing-events.html" %}
+            </div>
+          {% endif %}
+        {% endfor %}
+      
+      {# //let's leave this out for now
+       <h4 id="past-events">Past Events</h4> 
+      <ul class="listings">
+        {% for event in events_past %}
+          {% set event_date = event.start_date|date('U') %}
+          {% if event.start_date && event_date < current_unix_date %}
+            {% include "templates/partials/listing-events.html" %}
+          {% endif %}
+        {% endfor %}
+      </ul> #}
+    </div>
+  </article>
+</div>
+{% endblock %}

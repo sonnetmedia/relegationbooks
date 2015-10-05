@@ -1,0 +1,32 @@
+{% extends "templates/partials/base.html" %}
+{% block title %}{% parent %} - {{ item.name }}{% endblock %}
+{% block content %}
+{% set books = cms.book %}
+{% set books = books|sort('publish_date', true) %}
+
+
+
+  <div class="has-layout">
+
+
+    <article class="hentry {% if item.class %}{{page.class}}{% endif %}" style="padding-top:1em;">
+
+    <h1>Books</h1>
+
+      {# {% set series = series|sort('publish_date', true) %} #}
+      <div class="entry-content prose">
+        {# {% if item.featured_image %}
+          <img src="{{ item.featured_image|imageSize(700) }}" />
+        {% endif %}
+        {{ item.copy|safe }} #}
+
+          
+          {% for object in books %}
+          {% include "templates/partials/format-books-list.html" %}
+        {% endfor %}
+      
+    </div>
+  </article>
+</div>
+{% include "templates/partials/paginate.html" %}
+{% endblock %}

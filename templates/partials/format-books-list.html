@@ -1,0 +1,25 @@
+{% set editions = object.editions %}
+  {% set edition  = object.editions|first %}
+  <h1 id="{{ object.slug }}" class="book-title m0">
+    <a href="{{ url(object) }}">
+      {{ object.name }}{% if object.subtitle %} {% if object.subtitle.length => 10 %}<br />{% endif %} <span style="font-weight:400;font-size:.5em;">{{ object.subtitle }}</span>{% endif %}
+    </a>
+  </h1>
+  {# {% if object.genre %}
+    <h6><small>{{ object.genre}}</small></h6>
+  {% endif %} #}
+  {% if object.tagline %}<p class="lead">{{ object.tagline }}</p>{% endif %}
+  {% if edition.cover_image %}<img class="book-cover cover-with-synopsis boock-cover-presentation" src="{{ edition.cover_image|imageSize(350, 'auto') }}">{% endif %}
+  {% if object.synopsis %}{{ object.synopsis|safe }}{% endif %}
+  {% if object.excerpt %}
+    <h5><a href="{{ url(object) }}#excerpt">Read an Excerpt</a></h5>
+    {{ item.excerpt|safe }}
+  {% endif %}
+  
+{% if editions %}
+  <hr />
+  <div id="buying-information">
+    {% include "templates/partials/buy-links.html" %}        
+  </div>
+{% endif %}
+<hr style="margin:3em auto;" />

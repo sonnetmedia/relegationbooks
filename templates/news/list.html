@@ -1,0 +1,48 @@
+{% extends "templates/partials/base.html" %}
+{% block title %}{% parent %} - {{ item.name }}{% endblock %}
+{% block content %}
+  {% set news = cms.news %}
+  {% set news = news|sort('publish_date', true) %}
+  {% set news = paginate(news, 25) %}
+  <div class="has-layout">
+    <article class="hentry {% if item.class %}{{page.class}}{% endif %}">
+      <header>
+        <h1 class="entry-title">News & Events</h1>
+      </header>
+      <div class="entry-content prose">
+
+          <ul class="listings" style="margin-bottom:3em;">
+  
+       {% for event in events|sort('start_date') %}
+         {% set event_date = event.start_date|date('U') %}
+          {% if event_date > current_unix_date %}
+            {% include "templates/partials/listing-events.html" %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+
+      {# <small><a href="/events/#past-events">&raquo; past events</a></small> #}
+
+
+
+        {% for object in news %}
+          <h4>{% filter replace('<(?=p)|<(?=/p)/(?=p)|p>', '', 'g') %}{{ object.name|markdown }}{% endfilter %}</h4>
+          <small>{{ object.publish_date|date('F d Y') }}</small>
+          {% if object.category %}
+            <h5 style="font-weight:400;"><small>{{ object.category}}</small></h5>
+          {% endif %}
+          {% if object.copy %}{{ object.copy|safe }}{% endif %}
+          {% if object.source %}
+            <br />Read at <a href="{{ object.link_to_original }}" target="_blank">
+              {% set markdown_copy = object.source %}
+              {% filter replace('<(?=p)|<(?=/p)/(?=p)|p>', '', 'g') %}{{ markdown_copy|markdown }}{% endfilter %}
+              <i class="icon-link-ext" style="font-size:.75em;"></i></a>      
+          {% endif %}        
+          <hr style="margin:2em auto;" />
+        {% endfor %}    
+      </div>
+      {% include "templates/partials/paginator.html" %}
+      {% include "templates/partials/form-mailchimp-signup.html" %}
+    </article>
+  </div>
+{% endblock %}

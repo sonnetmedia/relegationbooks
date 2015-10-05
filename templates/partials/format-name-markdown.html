@@ -1,0 +1,5 @@
+{% if item.name %}
+  {% filter replace('<(?=p)|<(?=/p)/(?=p)|p>', '', 'g') %}{{ item.name|markdown }}{% endfilter %} 
+{% elseif object.name %}
+  {% filter replace('<(?=p)|<(?=/p)/(?=p)|p>', '', 'g') %}{{ object.name|markdown }}{% endfilter %} 
+{% endif %}

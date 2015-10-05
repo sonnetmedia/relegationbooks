@@ -1,1 +1,0 @@
-#### Follow us on Twitter: [twitter.com/@relegationbooks](http://twitter.com/relegationbooks)

@@ -1,0 +1,43 @@
+{% if item.featured_image %}
+  {% set featured_image = item.featured_image|imageSize(1600,'auto') %}  
+  {% set featured_image_mobile = item.featured_image|imageSize('auto', 600) %}  
+{% else %}
+  {% set featured_image = cms.global.featured_image|imageSize(1600,'auto') %}
+  {% set featured_image_mobile = cms.global.featured_image|imageSize('auto', 600) %}
+{% endif %} 
+
+        {% set editions = item.editions %}
+        {% set edition  = item.editions|first %}
+
+
+
+<div class="hero" {% if featured_image %}style="background-image:url('{{featured_image}}');height:550px;"{% endif %}>
+{% include "templates/partials/navigation.html" %}
+  <div class="hero-inner">
+    <div class="hero-copy" style="background-color:red;">
+      <div class="column-2"><!-- style="width:45%;float:left;" -->
+        
+          {% set editions = item.editions %}
+          {% set edition  = item.editions|first %}
+            {# <img src="{{ edition.cover_image|imageSize(550) }}" class="book-cover" style="width:350px;margin:2em auto;" /> #}
+            {% if edition.cover_image %}
+              <img class="book-cover" src="{{ edition.cover_image|imageSize(230, 'auto') }}">
+            {% endif %}
+            {# {% include "templates/partials/buy-links-modal.html" %} #}
+            {# <h3><a href="{{ url(object) }}#buying-information" class="btn">Buy <em>{{ object.name }}</em></a></h3>           #}
+        
+      </div>
+      <div class="column-2-wide padding-top-5"><!-- style="width:45%;float:left;margin-top:8em;" -->
+        {% set reviews = item.reviews_related_book|sort('publish_date', true)|slice(0,1) %}
+         {% for review in reviews %} {# |slice(0,1) #}
+        <blockquote class="review large">  
+            {% if review.excerpt %}<p class="quote_excerpt">{{ review.excerpt|safe }}</p>{% else %}{{ review.copy|safe }}{% endif %}
+        </blockquote>
+        <div>{% include "templates/partials/format-quotes-attribution.html" %}</div>
+        {% endfor %}
+        
+      
+    </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+{% extends "templates/partials/base.html" %}
+{% block title %}{% parent %} - {{ item.name }}{% endblock %}
+
+{% block content %}
+  <article class="hentry">
+    {% block article %}
+       {% if item.name %}
+      <header>
+        <h1 class="entry-title">{{ item.name }}</h1>
+      </header>
+    {% endif %}
+      <div class="entry-content prose">
+        {% if item.lede %}
+          <div class="lede">{{ item.lede|markdown }}</div>
+        {% endif %}
+        {{ item.copy|safe }}
+      </div>
+    {% endblock %}
+
+    {% include "templates/partials/form-mailchimp-signup.html" %}
+  </article>
+{% endblock %}

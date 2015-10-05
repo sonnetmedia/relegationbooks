@@ -1,0 +1,39 @@
+{% set event_date = event.start_date|date('U') %}
+{% set start_time = event.start_date|date('g:ia') %}
+<div class="entry-content prose">
+<strong>{% include "templates/partials/format-event-dates.html" %}</strong>
+    <h2 style="margin-bottom:.125em;">Event: <a href="{{ url(event) }}">{% filter replace('<(?=p)|<(?=/p)/(?=p)|p>', '', 'g') %}{{ event.name|markdown }}{% endfilter %}</a></h2>
+
+        {% if event.featured_image %}
+          <img src="{{ event.featured_image|imageSize(700) }}" />
+        {% endif %}
+        {% if event.copy %}{{ event.copy|safe }}{% endif %}
+        <ul>
+          {% if event.venue %}
+            <li>
+              <strong>{{ event.venue }}</strong>
+            </li>
+          {% endif %}
+          {% if event.address.street1 || event.address.city || event.address.state || event.address.country %}
+            <li>        
+              <address>
+                {% if event.address.street1 %}{{ event.address.street1 }}<br />{% endif %}
+                {% if event.address.street2 %}{{ event.address.street2 }}<br/>{% endif %}
+                {{ event.address.city }}{% if event.address.state %}, {{ event.address.state }}{% endif %} {{ event.address.country }} {{ event.address.zip }}
+              </address>
+            </li>
+          {% endif %}
+          {% if event.website %}
+            <li>
+              <span class="metadata"><strong>Website: </strong><a href="{{ event.website }}">{{ event.website|lower|replace('http://', '')|truncate(90) }}</a></span>
+            </li>
+          {% endif %}
+        </ul>
+        {% if event.address.city %}
+
+        <h6><a href="{{ url(event) }}">See map</a></h6>
+          
+          {% endif %}
+        
+        
+      </div>

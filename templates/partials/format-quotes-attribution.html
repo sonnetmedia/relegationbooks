@@ -1,0 +1,7 @@
+— {% filter replace('<(?=p)|<(?=/p)/(?=p)|p>', '', 'g') %}{{ review.name|markdown }}{% endfilter %} 
+
+
+
+{# 
+
+on {% for relation in review.related_book %} <a href="{{ url(relation) }}">{{ relation.name }}</a>{% if not loop.last %},{% endif %}{% endfor %}{% if review.link_to_original %} <a href="{{ review.link_to_original }}"><i class="icon-ion-link"></i></a>{% endif %} #}

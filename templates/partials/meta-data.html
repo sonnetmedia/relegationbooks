@@ -1,0 +1,30 @@
+<!-- Metadata -->
+{# TODO: add og, twitter card  #}
+{#   http://ogp.me/ #}
+{% set base_url = getSetting('site_url') %}
+{% set slug = item.slug %}
+{% set current_url = getCurrentUrl() %}
+{% if slug && base_url %}
+  {% set canonical_url = base_url + '/' + slug %}
+{% endif %}
+{% if base_url && current_url %}
+  {% set item_url = base_url + current_url %}
+{% endif %}
+
+{# GLOBAL DATA #}
+
+<meta content="{{ global.name }}" property="og:site_name">
+{# TITLE #}
+<meta property="og:title" content="{% if item.name %}{{ item.name }}{% else %}{{ global.name }}{% endif %}" />
+{# TYPE #}
+{# <meta property="og:type" content="video.movie" /> #}
+{# IMAGE #}
+{% if item.featured_image %}
+<meta content="{{ item.featured_image|imageSize('600') }}" property="og:image" data-type="featured image">
+{% else %}
+<meta content="{{ getSetting('site_url') }}{{ global.featured_image.url }}" property="og:image" data-type="global image">  
+{% endif %}
+<meta property="og:image:type" content="image/jpeg" />
+
+{# URL #}
+<meta content="{{ item_url }}" property="og:url">

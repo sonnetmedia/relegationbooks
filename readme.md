@@ -1,22 +1,43 @@
-A starter theme for Jekyll.
+webhook-starter
+===============
+Barebones Webhook starter file to include grunt and bower components for Bourbon, Neat, and Bitters, plus normalize-scss, and a minimal print stylesheet.
+
+Modeled from [webhook/webhook-theme-preprocessor](https://github.com/webhook/webhook-theme-preprocessor)
 
 
-#### placeholder
-Instructions for moving to production
 
-Instructions for declaring which sidebars to use
-Settings + template
+```$ wh -f [firebase_name] -s [server_ip] create [sitename]```
 
-#### TO DO
-- finish test posts
-- copy bower components to their respective production locations
 
-#### Install
-update local variables and options in _config file_
-run bundle update //updates gems
-make sure .bowerrc indicates the directory where you want your files installed.
-run bower install //updates packages via bower
+```$ cd [sitename]```
 
-[**_On Bittersweet Place_ included on The Millions' "Most Anticipated" list.**](http://www.themillions.com/2014/07/most-anticipated-the-great-second-half-2014-book-preview.html)
 
-[**Read about the origin of Relegation Books at The Millions**](http://www.themillions.com/2012/04/adventures-in-self-publishing-dallas-hudgens-wake-up-were-here.html)
+Update your .firebase.conf file
+
+
+```$ npm install --save-dev grunt-sass html5shiv jquery node-bourbon node-neat node-sass normalize-opentype.css normalize.scss respond.js```
+
+
+```$ wh -f [firebase_name] -s [server_ip] serve```
+
+
+In your browser, load <http://localhost:2002/> and click on "Looking for the CMS?" and Choose "Start from a theme"
+
+
+Find "Load remote theme" and add:  
+<https://github.com/budparr/webhook-starter/archive/master.zip>
+
+Step 7    
+```$ cd sass && gem install bitters```
+
+```$ bitters install```
+
+Optional  
+add static/cms.css to pages/cms.html
+
+
+---
+
+TODO: 
+Refine content sections  
+Refine theme initial layout (fork to a theme)

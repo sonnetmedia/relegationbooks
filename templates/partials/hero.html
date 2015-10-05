@@ -1,0 +1,16 @@
+{% if item.featured_image %}
+  {% set featured_image = item.featured_image|imageSize(1600,'auto') %}  
+  {% set featured_image_mobile = item.featured_image|imageSize('auto', 600) %}  
+{% else %}
+  {% set featured_image = cms.global.featured_image|imageSize(1600,'auto') %}
+  {% set featured_image_mobile = cms.global.featured_image|imageSize('auto', 600) %}
+{% endif %} 
+
+<div class="hero" {% if featured_image %}style="background-image:url('{{featured_image}}');"{% endif %}>
+  {% include "templates/partials/navigation.html" %}
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <img src="/static/images/relegation-and-tagline.png">
+    </div>
+  </div>
+</div>

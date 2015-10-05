@@ -1,0 +1,51 @@
+.hero {  
+  background-color: $hero-background;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  //background-attachment: fixed;
+  padding-bottom: 3em;
+  height: 500px;
+  overflow: hidden;
+
+  .hero-logo img {
+    height: 4em;
+    margin-bottom: 1em;
+  }
+
+  .hero-inner {
+    @include outer-container;
+    @include clearfix;
+    margin: auto;
+    padding: 3.5em 3.5em 3.5em 3.5em;
+    text-align: center;
+
+    
+
+    .hero-copy {
+      text-align: center;
+      color: $hero-color;
+      h1 {
+        color: $hero-color;
+        font-size: 1.6em;
+        margin-bottom: 0.5em;
+
+        @include media($large-screen) {
+          font-size: 1.8em;
+        }
+      }
+
+      p {
+        color: $hero-color;
+        line-height: 1.4em;
+        margin: 0 auto 3em auto; 
+        font-family: $serif;
+
+        @include media($large-screen) {
+          font-size: 1.5em;
+          //max-width: 40%;
+        }
+      }      
+    }
+  }
+}
