@@ -7,10 +7,14 @@ published: true
 category: latest news
 splash_image: splash.jpg
 ---
+>"Perhaps the greatest strength of On Bittersweet Place is its simple prose, which makes the book easily accessible. Oftentimes, a book is written from a child’s perspective yet is narrated in an embellished, complicated voice. However, this novel maintains a straightforward voice, one that Lena could have had. This prose not only renders the story more compelling but is also appropriate for one of Lena’s bigger struggles: communicating boldly with those around her." –– [**Harvard Crimson**](http://www.thecrimson.com/article/2014/9/16/on-bittersweet-place/)
 
-[**_On Bittersweet Place_ included on The Millions' "Most Anticipated" list.**](http://www.themillions.com/2014/07/most-anticipated-the-great-second-half-2014-book-preview.html)
+> "On Bittersweet Place is as much the coming-of-age story of the Midwest as a diverse and thriving urban center as it is Lena’s."
+–– [**Bloom**](http://bloom-site.com/2014/09/17/qa-with-ronna-wineberg/), plus an [excerpt from the book](http://bloom-site.com/2014/09/15/an-excerpt-from-ronna-winebergs-on-bittersweet-place/)
 
-[**Read about the origin of Relegation Books at The Millions**](http://www.themillions.com/2012/04/adventures-in-self-publishing-dallas-hudgens-wake-up-were-here.html)
+>"The novel — Wineberg’s first, following her acclaimed story collection Second Language — concerns Lena Czernitski, a young Russian Jewish immigrant trying to find her place in the glamour and darkness of 1920s Chicago." –– [**The Millions' Most-Anticipated Fall Preview, 2014** (recommended by Emily Mandel)](http://www.themillions.com/2014/07/most-anticipated-the-great-second-half-2014-book-preview.html)
+
+> "Relegation makes its move to a bigger stage this year, releasing its first book in September: On Bittersweet Place by Ronna Wineberg." –– [**Washingtonian**](http://www.washingtonian.com/blogs/capitalcomment/books/relegation-books-launches-student-run-imprint-at-gmu.php)
 
 [**Washingtonian.com reports on Relegation Books imprint Stillhouse Press**](http://www.washingtonian.com/blogs/capitalcomment/books/relegation-books-launches-student-run-imprint-at-gmu.php)
 
@@ -20,6 +24,7 @@ splash_image: splash.jpg
 #### Buy from: [IndieBound](http://www.indiebound.org/book/9780984764815)   |   [Powells](http://www.powells.com/biblio/61-9780984764815-0)   |   [Barnes & Noble](http://www.barnesandnoble.com/w/on-bittersweet-place-ronna-wineberg/1119681525?ean=9780984764815)   |   [Amazon](http://www.amazon.com/Bittersweet-Place-Ronna-Wineberg/dp/098476481X/ref=sr_1_1?s=books&ie=UTF8&qid=1410915949&sr=1-1&keywords=on+bittersweet+place)
 
 ---
+> Wineberg's debut novel On Bittersweet Place will hold you in its gentle enthrall.  A coming of age novel, an immigrant story, and an altogether moving meditation on life and the pursuit of happiness." ––**Marcy Dermansky, author of Bad Marie**
 
 ![](/assets/img/on-bittersweet-place_300x463.jpg)*On Bittersweet Place* is the powerful coming-of-age story of Lena Czernitski, a young Russian Jew whose family flees their homeland in the Ukraine after the October Revolution.  The story unfolds in Chicago during the Jazz Age of the 1920's, where Lena's impoverished family has settled and where she must traverse the early years of adolescence.  Lena's new world is large and beautiful and full of promise, but it is also cold and unwelcoming and laden with danger.  Ronna Wineberg delivers a moving, universal story of family, self-discovery, young love, and the always relevant experience of the immigrant, the refugee, the outsider struggling to create a new home and a better life in an unfamiliar place.
 
