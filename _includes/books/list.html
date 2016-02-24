@@ -1,0 +1,19 @@
+<h3>Out Now</h3>
+{% assign books = site.books | sort: 'date' | reverse  %}
+{% for page in books %}
+
+  <h1>
+    <a href="{{ page.url }}">
+      {{ page.title }}
+    </a>
+  </h1>
+  {% if page.cover_image_path %}
+    <img class="book-cover" src="{{ page.cover_image_path }}" style="width:300px;float:left;margin-right:1em;">
+  {% endif %}
+  {% if page.content %}
+    {{ page.content | markdownify }}
+  {% endif %}
+  <div style="margin:2.5em 0 5em 0;">
+    {% include books/buy-links.html %}
+  </div>
+{% endfor %}

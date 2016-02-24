@@ -1,6 +1,6 @@
 ---
 permalink: /
-layout: home
+include: 'books/list.html'
 ---
 ##### Latest News
 
@@ -21,3 +21,4 @@ layout: home
 ##### [Washingtonian.com reports on Relegation Books imprint Stillhouse Press](http://www.washingtonian.com/blogs/capitalcomment/books/relegation-books-launches-student-run-imprint-at-gmu.php)
 
 ##### [Read about the origin of Relegation Books at The Millions](http://www.themillions.com/2012/04/adventures-in-self-publishing-dallas-hudgens-wake-up-were-here.html)
+

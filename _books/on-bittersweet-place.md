@@ -5,6 +5,7 @@ genre: Fiction
 description: "On Bittersweet Place is the powerful coming-of-age story of Lena Czernitski, a young Russian Jew whose family flees their homeland in the Ukraine after the October Revolution."
 author: ronna-wineberg
 cover_image_path: uploads/cover-p-on-bittersweet-place.jpg
+isbn: 9780984764815
 editions:
   - paperback:
     - isbn: 9780984764815

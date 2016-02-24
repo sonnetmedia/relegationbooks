@@ -8,19 +8,22 @@
       {{page.subtitle}}
     </h2>
     {% endif %}
-    {% if page.date %}
-      <time class='date' datetime="{{ page.date | date:'%Y-%m-%d' }}">
-        <small>
-          {{ page.date | date:'%A %b %d, %Y' }}
-        </small>
-      </time>
-    {% endif %}
+    {% comment %}
+      {% if page.date %}
+        <time class='date' datetime="{{ page.date | date:'%Y-%m-%d' }}">
+          <small>
+            {{ page.date | date:'%A %b %d, %Y' }}
+          </small>
+        </time>
+        {% endif %}
+     {% endcomment %}
   </header>
 {% comment %}Content Below{% endcomment %}
   <div class="entry-content prose">
 
     {{page.category}}
     {{ content }}
+    <hr style="margin:3em auto;" />
     {% if page.include %}
       {% include {{page.include}} %}
     {% endif %}
@@ -31,11 +34,7 @@
     </div>
   {% endif %}
 
-    {% if page.url contains '/article/' %}
-    {% include articles/comments-twitter.html %}
-      {% include global/license-creative-commons.html %}
-    {% endif %}
-    {% include global/edit.html %}
+        {% include global/edit.html %}
 
 
 </article>
