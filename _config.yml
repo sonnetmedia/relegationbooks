@@ -44,6 +44,7 @@ collections:
   landing_pages:
     output: true
     permalink: '/:path/'
+    layout: page
   authors:
       output: true
       permalink: '/author/:path/'
@@ -58,6 +59,11 @@ defaults:
     values:
       layout: page
       permalink: /:basename/
+  - scope:
+      path: ''
+      type: landing_pages
+    values:
+      layout: page
   - scope:
       path: ''
       type: posts

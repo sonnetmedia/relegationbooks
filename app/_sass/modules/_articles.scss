@@ -1,5 +1,5 @@
 article.hentry {
-  padding: 1em 1em 6em 1em;
+  padding: 4em 1em 6em 1em;
   margin:auto;
   max-width: $medium-screen;//$d-vp;
   //min-height: $c-vp;
@@ -13,4 +13,14 @@ article.hentry {
     @include media($medium-screen-up) {
     //padding: 2rem 7em; //- change padding to the screen size
   }
+}
+
+
+.form-email-signup {
+
+  @include media($medium-screen-up) {
+    max-width: $medium-screen * .95;
+    margin: 2em auto 5em;
+  }
+
 }

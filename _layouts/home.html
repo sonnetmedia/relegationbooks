@@ -1,29 +1,5 @@
 ---
 layout: default
+section: page
 ---
-<div class="layout">
-
-
-<div class="column-1">
-  <h1>Emily</h1>
-  <h1>Barton</h1>
-
-</div>
-
-<div class="column-2">
-  {% assign posts = site.posts | where: "category", "reviews" %}
-
-
-
-  {% for post in posts limit: 1 offset: 12 %}
-{% comment %} <h1>{{ forloop.index }} {{ post.url }}</h1> {% endcomment %}
-    <blockquote cite="http://">
-      {% if post.pull_quote and post.pull_quote !='' %}
-        {{ post.pull_quote | markdownify  }}
-      {% elsif post.content %}
-        {{ post.content | markdownify  }}
-      {% endif %}
-    </blockquote>
-
-  {% endfor %}
-</div></div>
+{% include articles/article.html %}
