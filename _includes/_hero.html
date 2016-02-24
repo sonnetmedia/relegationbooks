@@ -1,7 +1,32 @@
 <div class="hero" {% if page.featured_image_path %}style="background-image:url('{{page.featured_image_path}}');"{% endif %}>
 	<div class="hero-inner">
 		<div class="hero-copy">
-			<img src="/static/images/relegation-and-tagline.png">
+
+				{% if page.cover_image_path %}
+				<div class="column-2"><!-- style="width:45%;float:left;" -->
+						<img src="{{ page.cover_image_path }}" class="book-cover" style="width:350px;margin:2em auto;">
+
+
+						</div>
+			{% else %}
+				<img src="/static/images/relegation-and-tagline.png">
+			{% endif %}
+
+
+			{% comment %}
+
+			<div class="column-2-wide padding-top-5"><!-- style="width:45%;float:left;margin-top:8em;" -->
+				{% set reviews = item.reviews_related_book|sort('publish_date', true)|slice(0,1) %}
+				 {% for review in reviews %} {# |slice(0,1) #}
+				<blockquote class="review large">
+						{% if review.excerpt %}<p class="quote_excerpt">{{ review.excerpt|safe }}</p>{% else %}{{ review.copy|safe }}{% endif %}
+				</blockquote>
+				<div>{% include "templates/partials/format-quotes-attribution.html" %}</div>
+				{% endfor %}
+			 {% endcomment %}
+
+
+
 		</div>
 	</div>
 </div>

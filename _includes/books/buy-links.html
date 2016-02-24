@@ -5,43 +5,37 @@
 
 <div id="buy-links">
 <h5>{% if pubdate < current_unix_date %}buy{% else %}preorder{% endif %} <em>{{ item.name }}</em> from these retailers</h5>
-
-
-
-
-
   <p>
     <strong>
       {% for edition in editions %}
+        {% if forloop.first %}Available editions: {% endif %}
+        {% for binding in edition %}
+          {% if binding[1] != '' %}
+            {{ binding[0] | capitalize }}{% endif %}{% endfor %}{% unless forloop.last %}, {% endunless %}
 
-        {{ edition[1] }}
-        {% if edition.isbn %}
-          {% assign isbn = edition.isbn %}
-          {% if loop.first %}Available editions: {% endif %}{{ edition.type }}{% if loop.revindex != 2 %}{% if not loop.last %}, {% endif %}{% endif %}{% if loop.revindex == 2 %} and {% endif %}
-        {% endif %}
       {% endfor %}
     </strong>
   </p>
 
-
-
-
-
   <ul class="links">
+    {% if page.distributor_link %}
+      <a href="{{ page.distributor_link }}" target="_blank" class="{{ edition.type }}">
+        <li>
+          Buy Direct
+        </li>
+      </a>
+        <br />
+    {% endif %}
 
 
-    {% assign editions_physical = page.editions %}
-      {% for edition in editions_physical|slice(0,1) %}
-        {% if edition.distributor_link %}
-          <a href="{{ edition.distributor_link }}" target="_blank" class="{{ edition.type }}">
-            <li>
-              Buy Direct
-            </li>
-          </a>
-            <br />
-        {% endif %}
-        {% if edition.isbn %}
-          {% assign isbn = edition.isbn %}
+      {% for edition in editions %}
+
+        {% for binding in edition %}
+        {% assign type = binding[0] %}
+          {% assign isbn = binding[1] %}
+
+
+            {% if type == 'paperback' or type == 'hardcover' and isbn != '' %}
             <li>
               <a href="http://www.indiebound.org/product/info.jsp?isbn={{ isbn }}" target="_blank" class="{{ edition.type }}">
                 Your Independent Bookstore
@@ -52,26 +46,26 @@
                 Barnes & Noble
               </a>
             </li>
+
             <li id='isbn10_{{ isbn }}'></li><!--  pulls in 10 digit ASIN for -->
             {% include books/buy-links-isbn10to13.js %}
-        {% endif %}
+
+            {% elsif type == 'ebook' and isbn != '' %}
+            <li>
+              <a href="http://itunes.apple.com/us/book/isbn{{ isbn }}" target="_blank" class="{{ edition.type }}">
+                Apple iBooks
+              </a>
+            </li>
+            {% endif %}
+
+        {% endfor %}
       {% endfor %}
 
 
 
 
 
-    {% assign edition_digital = editions | where: 'type','Ebook' %}
-    {% for edition in edition_digital %} {# if it's an ebook just show that because the print retailers will also sell the ebook (works as long as there's no ebook only) #}
-      {% if edition.isbn %}
-        {% assign isbn = edition.isbn %}
-        <li>
-          <a href="http://itunes.apple.com/us/book/isbn{{ isbn }}" target="_blank" class="{{ edition.type }}">
-            Apple iBooks
-          </a>
-        </li>
-      {% endif %}
-    {% endfor %}
+
 
 
 
