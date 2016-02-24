@@ -1,51 +1,70 @@
-url: http://www.relegationbooks.com
-sitename: 'Relegation Books'
-description: 'Craft Publishing Literary Fiction of Fine Vintage'
-# do not include  https://github.com/...
-repo: 'sonnetmedia/relegationbooks'
-branch: gh-pages
-default_author: "Bud Parr"
+# Site settings
+title: Relegation Books
+email: your-email@domain.com
+description: Craft publishing literary fiction of fine vintage
+baseurl: "" # the subpath of your site, e.g. /blog
+url: http://www.relegationbooks.com/
+# image_url: http://thenewdynamic.imgix.net
+genre:
+  - Fiction
+  - Nonfiction
+  - Poetry
 
-#Jekyll Options
-# if using more than one Jekyll instance on your local machine
-# port: 4001
-# paginate tells Jekyll how many posts per page
-# paginate: 1
-# Permalinks
-permalink:  pretty
-# Dependencies
-markdown: kramdown
-#redcarpet:
-# extensions: ['autolink', 'smart']
-pygments: true
-#Pages - store all pages in the _pages directory
-include: ['_pages']
-relative_permalinks: false # won't need this as of 2.0: Deprecation: Starting in 2.0, permalinks for pages in subfolders must be relative to the site source directory, not the parent directory. Also will change exclude directory
-exclude: ['readme.md','license.md','Gemfile','links.jsonp', 'CNAME', 'rakefile', 'bower.json', 'node_modules']
+## DO NOT EDIT BELOW THIS LINE
+production: false
+# PLUGINS
+# gems:
+#  - jekyll-assets
+# full_rebuild: true
+timezone: Etc/Zulu
+exclude:
+  - app
+  - readme.md
+  - todo.md
+  - license.md
+  - Gemfile
+  - Gemfile.lock
+  - bower.json
+  - CNAME
+  - node_modules
+  - sass
+  - gulpfile.js
+  - package.json
+  - javascript
+  - vendor
+permalink: pretty
+future: false
 
-
-
-# dev options (true/false)
-# if site is in production, 'production: true'
-production: true
-use_pure_css: false
-use_jquery_cdn: true
-include_font_awesome: false
-include_addthis_sharing: true
+# PRODUCTION
+google_analytics_id: UA-30899180-4
 bust_css_cache: true
 
-# options (data)
-google_analytics_id: UA-50141097-1
-disqus_id:
-addthis_id:
-# CONTACT FORM http://getsimpleform.com/
-simple_form_api_token:
-
-# options (social)
-# facebook_id:
-twitter_id: budparr
-
-# navigation options - effects layout/default. May also need options set in sass files
-include_nav-top: true
-include_nav-side-left: false
-include_nav-side-right: false
+# CONTENT
+collections:
+  landing_pages:
+    output: true
+    permalink: '/:path/'
+  authors:
+      output: true
+      permalink: '/author/:path/'
+  books:
+    output: true
+    permalink: '/book/:path/'
+# DEFAULTS
+defaults:
+  - scope:
+      path: ''
+      type: pages
+    values:
+      layout: page
+      permalink: /:basename/
+  - scope:
+      path: ''
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ''
+      type: books
+    values:
+      layout: book

@@ -1,0 +1,22 @@
+img, aside img {
+  max-width: 100%;
+}
+
+hr {
+  margin:1em auto;
+  border: 0;
+  border-top: 1px solid #EEEEEE;
+}
+
+sup, sub {
+//@include adjust-font-size-to($kappa);
+ vertical-align: baseline;
+ position: relative;
+ top: -0.4em;
+}
+sub { top: 0.4em; }
+
+
+.hidden-js, .hidden {
+  display: none;
+}

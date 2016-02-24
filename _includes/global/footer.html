@@ -1,29 +1,28 @@
-{% comment %}
-.push and .bg are utility classes we can use to 
-stick our footer at the bottom of the page and 
-display a full width background image, respectively
-{% endcomment %}
-<div class="push bg"></div>
-<footer id="content-info">
-  <div class="pure-menu pure-menu-open pure-menu-horizontal" style="width:300px;float:left;">
-    <ul class="no-bullet">
-      <li class="source-org vcarfd copyright">
-        <a href="{{site.baseurl}}"><span class="org fn">{{site.sitename}}</span></a>
-      </li> 
-      <li><a href="http://sonnetmedia.net">site by sonnet media</a></li>   
+<footer class="footer" role="contentinfo">
+  <div class="footer-logo">
+    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="Logo image">
+  </div>
+  <div class="footer-links">
+    <ul>
+      <li><h3>Content</h3></li>
+      <li><a href="javascript:void(0)">About</a></li>
+      <li><a href="javascript:void(0)">Contact</a></li>
+      <li><a href="javascript:void(0)">Products</a></li>
+    </ul>
+    <ul>
+      <li><h3>Follow Us</h3></li>
+      <li><a href="javascript:void(0)">Facebook</a></li>
+      <li><a href="javascript:void(0)">Twitter</a></li>
+      <li><a href="javascript:void(0)">YouTube</a></li>
+    </ul>
+    <ul>
+      <li><h3>Legal</h3></li>
+      <li><a href="javascript:void(0)">Terms and Conditions</a></li>
+      <li><a href="javascript:void(0)">Privacy Policy</a></li>
     </ul>
   </div>
 
-<div style="width:200px;float:right;">
-	<a href="http://www.stillhousepress.org/">
-		Also visit Stillhouse Press
-		<img src="/assets/img/stillhouse_200x.jpg">
-	</a>
+  <hr>
 
-</div>
-
+  <p>Disclaimer area lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, nostrum repudiandae saepe.</p>
 </footer>
-{% if page.background_image %}
-	<img src="{{site.baseurl}}/assets/img/{{page.background_image}}" class="bg">
-{% endif %}
-<!-- /footer -->

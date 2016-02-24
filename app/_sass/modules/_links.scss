@@ -1,0 +1,31 @@
+ul.links {
+  padding: 0;
+  margin:1em 0;
+  
+}
+
+.links li{
+text-align: center;
+  border: 1px solid #000;
+  padding: .35em .5em;
+  border-radius:3px;
+  display: inline-block;
+  margin: 1em .5em .5em .5em;
+  font-size: 0.85em;
+  &.hover {
+    background-color: black;
+    color: red;
+  }
+}
+
+ul.m2a3 {
+  margin: 2em auto 3em auto;
+}
+
+ul.list li {
+
+  font-family: $sans-serif;
+  margin-bottom: 1.5em;
+  font-weight: 500;
+
+}

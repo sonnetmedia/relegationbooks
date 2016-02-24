@@ -1,0 +1,93 @@
+/* Blockquote styles */
+blockquote.review {
+  font-size: .9em;
+}
+blockquote.review p {
+  margin: 0 auto 1em auto;
+}
+
+blockquote.review p, .quote_excerpt {
+  //width: 86.440678%; /* 510px / 590px = 86.440678% */
+  font-size: 1.375em;
+  line-height: 1.4em;
+  //font-family: "SabonNextW04-DisplayIta", Georgia, "Times New Roman";
+  font-family: $base-font-family;
+  font-style: normal;
+  //font-weight: 500;
+  position: relative;
+  
+}
+
+blockquote.review p:nth-child(1) {
+text-indent: -0.5em;  
+}
+blockquote.review p:nth-child(1):before,  .quote_excerpt:before, figure blockquote:before {
+  content: "\201C";
+  ///////////////////font-size: 1.25em;
+  //color: #9f9f9f;
+  //font-family: Georgia, $georgia;
+  //position: relative;
+  //top: 0.125em;
+  //left: 0;//-0.125em;
+  //margin-right:.325em;
+
+}
+
+ .quote_excerpt:before {
+//margin-right:-.125em;
+left: 0.125em;
+ }
+
+blockquote.review p:last-of-type:after,  .quote_excerpt:after, figure blockquote:after {
+  content: "\201D";
+  /////////////////font-size: 1.25em;//2rem;
+
+  //color: #9f9f9f;
+  //font-family: Georgia, $georgia;
+  //position: relative;
+  // bottom: -0.2em;
+  // right: .125em;//0;
+  // display: inline;
+  // line-height: .2em;
+}
+
+
+blockquote.large p {
+  @include media($normal-screen-up) {
+    font-size: 1.5625em; 
+  }
+}
+
+
+.content blockquote.spaced {
+  //width:60%;
+  //text-align: center;
+  margin: 5em auto;
+}
+
+
+
+blockquote {
+  //@extend .as-heading__normal;
+  //padding: 2em;
+  //color: lighten($base-color, 18%);
+  border: none;
+}
+
+////  QUOTES
+
+.quote, .quotes p {
+  font-size: $base-font-size * 1.6;
+  line-height: 1.5;
+ // font-family: $serif;
+}
+
+figure blockquote {
+  font-size: 1.0625em;
+  margin: 1em;
+  text-indent: -0.675em;  
+}
+
+blockquote.spaced {
+  margin-bottom: 3em;
+}

@@ -1,0 +1,28 @@
+.book-cover img, img.book-cover {
+   box-shadow: 0 30px 50px rgba(0,0,0,0.3);
+}
+
+.hero img.book-cover {
+  box-shadow: 10px 30px 50px rgba(0,0,0,1);
+}
+
+.cover-with-synopsis {
+  float:none;
+  width: 100%;
+  @include media($medium-screen) {
+    width:280px;
+    float:left;
+    margin:13px 22px 30px 0; //-5em
+  }
+}
+
+.boock-cover-presentationTK {
+  z-index: 1000;
+  float:left;
+  width:100%;
+  margin:auto 18px 2em auto;
+    @include media($normal-screen-up) {
+      width: 380px;
+      margin:auto 35px 1em -220px;
+    }
+}
