@@ -2,7 +2,7 @@
 title: "Marcy Dermansky, author of *Bad Marie*"
 published: true
 date: 2015-09-18T18:00:00.000Z
-type: reviews
+category: review
 slug: marcy-dermansky-author-of-bad-marie
 related-book: on-bittersweet-place
 ---

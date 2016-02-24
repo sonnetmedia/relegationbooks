@@ -2,7 +2,7 @@
 title: "Joan Leegant, author of *Wherever You Go*"
 published: true
 date: 2015-09-18T18:06:00.000Z
-type: reviews
+category: review
 slug: joan-leegant-author-of-wherever-you-go
 related-book: on-bittersweet-place
 ---

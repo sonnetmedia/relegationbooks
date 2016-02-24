@@ -2,7 +2,7 @@
 title: "Emily St. John Mandel, *The Millions*"
 published: true
 date: 2015-09-18T18:46:00.000Z
-type: reviews
+category: review
 slug: emily-st-john-mandel-the-millions
 related-book: wake-up-were-here
 ---

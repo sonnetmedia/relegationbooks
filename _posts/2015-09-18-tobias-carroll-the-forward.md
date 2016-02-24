@@ -2,7 +2,7 @@
 title: "Tobias Carroll, *The Forward​*"
 published: true
 date: 2014-08-18T12:29:00.000Z
-type: reviews
+category: review
 slug: tobias-carroll-the-forward
 related-book: on-bittersweet-place
 ---

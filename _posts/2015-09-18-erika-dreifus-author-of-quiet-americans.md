@@ -2,7 +2,7 @@
 title: "Erika Dreifus, author of *Quiet Americans*"
 published: true
 date: 2015-09-18T18:05:00.000Z
-type: reviews
+category: review
 slug: erika-dreifus-author-of-quiet-americans
 related-book: on-bittersweet-place
 ---

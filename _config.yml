@@ -9,7 +9,9 @@ genre:
   - Fiction
   - Nonfiction
   - Poetry
-
+category:
+  - review
+  - news
 ## DO NOT EDIT BELOW THIS LINE
 production: false
 # PLUGINS
