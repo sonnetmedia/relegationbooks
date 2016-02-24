@@ -13,6 +13,8 @@
   <p>
     <strong>
       {% for edition in editions %}
+
+        {{ edition[1] }}
         {% if edition.isbn %}
           {% assign isbn = edition.isbn %}
           {% if loop.first %}Available editions: {% endif %}{{ edition.type }}{% if loop.revindex != 2 %}{% if not loop.last %}, {% endif %}{% endif %}{% if loop.revindex == 2 %} and {% endif %}

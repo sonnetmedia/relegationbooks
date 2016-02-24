@@ -5,6 +5,7 @@ genre: Fiction
 description: ""
 cover_image_path: uploads/cover-p-wake-up-were-here.jpg
 author: dallas-hudgens
+for_sale: true
 editions:
   - paperback:
     - isbn: 9780984764808
