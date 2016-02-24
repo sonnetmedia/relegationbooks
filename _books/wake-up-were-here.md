@@ -1,9 +1,10 @@
 ---
-title: Wake Up, We’re Here
+title: "Wake Up, We’re Here"
+slug: wake-up-were-here
 date: 2012-04-12T12:00:00.000Z
 genre: Fiction
 description: ""
-cover_image_path: uploads/cover-p-wake-up-were-here.jpg
+cover_image_path: /uploads/cover-p-wake-up-were-here.jpg
 author: dallas-hudgens
 for_sale: true
 distributor_link: http://www.itascabooks.com/wake-up-we-re-here.html

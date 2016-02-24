@@ -1,33 +1,38 @@
 <div class="hero" {% if page.featured_image_path %}style="background-image:url('{{page.featured_image_path}}');"{% endif %}>
 	<div class="hero-inner">
 		<div class="hero-copy">
-
+			{% if page.collection == 'books' %}
 				{% if page.cover_image_path %}
-				<div class="column-2"><!-- style="width:45%;float:left;" -->
+					<div class="column-2"><!-- style="width:45%;float:left;" -->
 						<img src="{{ page.cover_image_path }}" class="book-cover" style="width:350px;margin:2em auto;">
-
-
-						</div>
-			{% else %}
-				<img src="/static/images/relegation-and-tagline.png">
-			{% endif %}
-
-
-
+					</div>
+				{% else %}
+					<img src="{{ site.brand_image }}">
+				{% endif %}
 
 			<div class="column-2-wide padding-top-5"><!-- style="width:45%;float:left;margin-top:8em;" -->
-				{% assign reviews = page.related-book|sort('publish_date', true)|slice(0,1) %}
+				{% assign reviews = site.posts | where: 'category', 'review' %}
+				{% assign reviews = reviews | where: 'related-book', page.slug %}
 
+				{% for review in reviews limit: 1 %}
+					<blockquote class="review large">
+						{% if review.excerpt %}
+							<p class="quote_excerpt">
+								{{ review.excerpt|safe }}
+							</p>
+						{% else %}
+							{{ review.copy | markdownify }}
+						{% endif %}
+					</blockquote>
 
-				 {% for review in reviews %}
-				<blockquote class="review large">
-						{% if review.excerpt %}<p class="quote_excerpt">{{ review.excerpt|safe }}</p>{% else %}{{ review.copy|safe }}{% endif %}
-				</blockquote>
-				<div>{% include "templates/partials/format-quotes-attribution.html" %}</div>
-				{% endfor %}
-
-
-
+				{% comment %}
+					{% include "templates/partials/format-quotes-attribution.html" %}
+				 {% endcomment %}
+				 {% endfor %}
+			</div>
+			{% else %}
+				<img src="{{ site.brand_image }}">
+			{% endif %}
 
 		</div>
 	</div>
