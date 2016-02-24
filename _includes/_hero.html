@@ -13,17 +13,19 @@
 			{% endif %}
 
 
-			{% comment %}
+
 
 			<div class="column-2-wide padding-top-5"><!-- style="width:45%;float:left;margin-top:8em;" -->
-				{% set reviews = item.reviews_related_book|sort('publish_date', true)|slice(0,1) %}
-				 {% for review in reviews %} {# |slice(0,1) #}
+				{% assign reviews = page.related-book|sort('publish_date', true)|slice(0,1) %}
+
+
+				 {% for review in reviews %}
 				<blockquote class="review large">
 						{% if review.excerpt %}<p class="quote_excerpt">{{ review.excerpt|safe }}</p>{% else %}{{ review.copy|safe }}{% endif %}
 				</blockquote>
 				<div>{% include "templates/partials/format-quotes-attribution.html" %}</div>
 				{% endfor %}
-			 {% endcomment %}
+
 
 
 
