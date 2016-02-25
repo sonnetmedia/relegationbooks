@@ -7,7 +7,7 @@ url: http://www.relegationbooks.com/
 # image_url: http://thenewdynamic.imgix.net
 brand_image: /static/images/relegation-and-tagline.png
 mailchimp_url: "http://relegationbooks.us8.list-manage.com/subscribe/post?u=e523bff16336ae35c104a9fdf&amp;id=78c4197037"
-genre:
+genres:
   - Fiction
   - Nonfiction
   - Poetry
