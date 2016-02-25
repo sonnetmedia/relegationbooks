@@ -1,7 +1,10 @@
-<h3>Out Now</h3>
 {% assign books = site.books | sort: 'date' | reverse  %}
-{% for page in books %}
-
+{% if page.number_of_books_to_show %}
+  {% assign limit = page.number_of_books_to_show %}
+{% else %}
+  {% assign limit = 100 %}
+{% endif %}
+{% for page in books limit: limit %}
   <h1>
     <a href="{{ page.url }}">
       {{ page.title }}
