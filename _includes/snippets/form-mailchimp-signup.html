@@ -1,6 +1,8 @@
+<div class="form-email-signup">
+<h4>Subscribe to our mailing list</h4>
 <!-- Begin MailChimp Signup Form -->
 <div id="mc_embed_signup">
-<form action="http://relegationbooks.us8.list-manage.com/subscribe/post?u=e523bff16336ae35c104a9fdf&amp;id=78c4197037" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<form action="{% if site.mailchimp_url %}{{ site.mailchimp_url }}{% endif %}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 <div class="mc-field-group">
     <label for="mce-EMAIL">Email Address </label>
     <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
@@ -13,5 +15,5 @@
     <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 </form>
 </div>
-
+</div>
 <!--End mc_embed_signup-->

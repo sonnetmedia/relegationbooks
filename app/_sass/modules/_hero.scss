@@ -35,7 +35,7 @@
 
     .hero-copy {
       text-align: center;
-
+      color: $hero-color;
       h1 {
         color: $hero-color;
         font-size: 1.6em;
@@ -50,10 +50,11 @@
         color: $hero-color;
         line-height: 1.4em;
         margin: 0 auto 3em auto;
+        font-family: $serif;
 
         @include media($large-screen) {
-          font-size: 1.1em;
-          max-width: 40%;
+          font-size: 1.5em;
+          //max-width: 40%;
         }
       }
     }

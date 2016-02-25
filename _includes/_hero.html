@@ -6,31 +6,29 @@
 					<div class="column-2"><!-- style="width:45%;float:left;" -->
 						<img src="{{ page.cover_image_path }}" class="book-cover" style="width:350px;margin:2em auto;">
 					</div>
-				{% else %}
+				{% elsif site.brand_image %}
 					<img src="{{ site.brand_image }}">
 				{% endif %}
 
 			<div class="column-2-wide padding-top-5"><!-- style="width:45%;float:left;margin-top:8em;" -->
 				{% assign reviews = site.posts | where: 'category', 'review' %}
-				{% assign reviews = reviews | where: 'related-book', page.slug %}
+				{% assign reviews = reviews | where: 'book', page.slug %}
 
 				{% for review in reviews limit: 1 %}
 					<blockquote class="review large">
-						{% if review.excerpt %}
+						{% if review.description and review.description != '' %}<h1>Excerpt</h1>
 							<p class="quote_excerpt">
-								{{ review.excerpt|safe }}
+								{{ review.description }}
 							</p>
-						{% else %}
-							{{ review.copy | markdownify }}
+						{% elsif review.content %}
+							{{ review.content | markdownify }}
 						{% endif %}
 					</blockquote>
+					– {{ review.title | markdownify | remove: '<p>' | remove: '</p>' }}
 
-				{% comment %}
-					{% include "templates/partials/format-quotes-attribution.html" %}
-				 {% endcomment %}
 				 {% endfor %}
 			</div>
-			{% else %}
+			{% elsif site.brand_image %}
 				<img src="{{ site.brand_image }}">
 			{% endif %}
 
