@@ -20,3 +20,10 @@
     {% include books/buy-links.html %}
   </div>
 {% endfor %}
+{% if books.size > limit %}
+  <a href="/books">
+    <button type="button" name="button">
+      More Books
+    </button>
+  </a>
+{% endif %}
