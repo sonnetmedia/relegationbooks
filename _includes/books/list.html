@@ -1,4 +1,4 @@
-{% assign books = site.books | sort: 'date' | reverse  %}
+{% assign books = site.books | sort: 'publication_date' | reverse  %}
 {% if page.number_of_books_to_show %}
   {% assign limit = page.number_of_books_to_show %}
 {% else %}
