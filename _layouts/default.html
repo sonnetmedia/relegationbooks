@@ -23,11 +23,13 @@ layout: compress
             <!-- TODO: make correct URL for rss -->
     <link rel="alternate" type="application/rss+xml" href="/rss" title="RSS Feed">
 
+    {% comment %}
+    letting jekyll SEO do this
     <title>{% if page.title %} {{page.title}} - {% endif %} {{site.sitename}}</title>
     {% if page.url %}
       <link rel="canonical" href="{{site.url}}{{ page.url }}" />
     {% endif %}
-
+ {% endcomment %}
     <link rel="icon" href="{{site.url}}/favicon.ico" type="image/x-icon">
         <!-- Stylesheets -->
 
@@ -47,10 +49,8 @@ layout: compress
           <link rel="stylesheet" media="all" href="http://universal-ie6-css.googlecode.com/files/ie6.0.3.css">
         <![endif]-->
 
-  {% if site.production == true %}
-    {% include global/analytics.html %}
-  {% endif %}
   {% if jekyll.environment == "production" %}
+  {% include global/analytics.html %}
    {% seo %}
   {% endif %}
 

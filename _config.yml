@@ -16,7 +16,7 @@ categories:
   - review
   - news
 ## DO NOT EDIT BELOW THIS LINE
-production: false
+production: true
 # PLUGINS
 gems:
   - jekyll-seo-tag
@@ -42,7 +42,7 @@ permalink: pretty
 future: false
 
 # PRODUCTION
-google_analytics_id: UA-30899180-4
+google_analytics_id: UA-50141097-1
 bust_css_cache: true
 version: 3.0.3
 # CONTENT
