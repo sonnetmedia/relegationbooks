@@ -1,0 +1,14 @@
+---
+layout: default
+index: false
+---
+<div class="has-layout__full-width layout-three-column">
+  <aside class="top{% if page.description  %} content-aside{% endif %}">
+    {% if page.description  %}
+      {{ page.description  | markdownify }}
+    {% endif %}
+  </aside>
+  <article class="hentry">
+    {{ content }}
+  </article>
+</div>
