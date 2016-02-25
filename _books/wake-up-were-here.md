@@ -2,7 +2,7 @@
 title: "Wake Up, We’re Here"
 subtitle:
 slug: wake-up-were-here
-date: 2012-04-12T12:00:00.000Z
+publication_date: 2012-04-12T12:00:00.000Z
 genre: Fiction
 description: ""
 cover_image_path: /uploads/cover-p-wake-up-were-here.jpg

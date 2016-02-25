@@ -35,7 +35,7 @@
       <ul class="listings inline">
         <li>
           <strong>Publication Date: </strong>
-          {{ page.date | date: "%b %-d, %Y" }}
+          {{ page.publication_date | date: "%b %-d, %Y" }}
         </li>
         {% for edition in page.editions | first %}
           {% for binding in edition %}

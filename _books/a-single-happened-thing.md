@@ -2,12 +2,12 @@
 title: A Single Happened Thing
 subtitle: ''
 slug: a-single-happened-thing
-date: 2016-04-04T12:00:00.000Z
+publication_date: 2016-04-04T12:00:00.000Z
 genre: Fiction
 description: ''
 author: dallas-hudgens
 cover_image_path: /uploads/cover-p-a-single-thing-happened.jpg
-featured_image_path: ''
+featured_image_path: /uploads/bg-city.jpg
 for_sale: true
 distributor_link: 'http://www.itascabooks.com/a-single-happened-thing.html'
 editions:
