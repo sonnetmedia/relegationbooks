@@ -5,7 +5,7 @@ slug: a-single-happened-thing
 publication_date: 2016-04-04T12:00:00.000Z
 genre: Fiction
 description: ''
-author: dallas-hudgens
+author: daniel-paisner
 cover_image_path: /uploads/cover-p-a-single-thing-happened.jpg
 featured_image_path: /uploads/bg-city2.jpg
 for_sale: true
