@@ -1,5 +1,5 @@
 ---
-title: "Tobias Carroll, *The Forward​*"
+title: "Tobias Carroll, *The Forward*"
 published: true
 date: 2014-08-18T12:29:00.000Z
 category: review
