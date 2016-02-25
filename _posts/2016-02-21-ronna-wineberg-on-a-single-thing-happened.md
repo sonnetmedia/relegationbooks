@@ -1,5 +1,5 @@
 ---
-title: "Ron Darling, author of _The Complete Game_"
+title: "Ronna Wineberg, author of _On Bittersweet Place_"
 published: true
 date: 2016-02-21T12:29:00.000Z
 category: review
