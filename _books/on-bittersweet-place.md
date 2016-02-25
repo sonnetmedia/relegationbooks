@@ -4,7 +4,7 @@ slug: on-bittersweet-place
 date: 2014-09-16T12:00:00.000Z
 genre: Fiction
 description: "On Bittersweet Place is the powerful coming-of-age story of Lena Czernitski, a young Russian Jew whose family flees their homeland in the Ukraine after the October Revolution."
-author: ronna-wineberg
+author: 
 cover_image_path: /uploads/cover-p-on-bittersweet-place.jpg
 featured_image_path: /uploads/bg-on-bittersweet-place.jpg
 for_sale: true
