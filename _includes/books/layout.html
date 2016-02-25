@@ -1,0 +1,86 @@
+<div class="has-layout">
+ <article class="hentry {% if page.class %}{{page.class}}{% endif %}">
+  <header>
+    {% if page.name %}
+      <h1 class="book-title m0">{{ page.name|safe }}{% if page.subtitle %}{% if page.subtitle.length => 10 %}<br />{% endif %} <span style="font-weight:400;font-size:.5em;">{{ page.subtitle }}</span>{% endif %}</h1>
+    {% endif %}
+
+    {% if page.genre %}
+        <h6><small>{{ page.genre}}</small></h6>
+        {% endif %}
+
+          {% if page.tagline %}<p class="lead">{{ page.tagline }}</p>{% endif %}
+  </header>
+    <div class="entry-content prose">
+    {% if edition.cover_image %}<img class="book-cover cover-with-synopsis bock-cover-presentation" src="{{ edition.cover_image|imageSize(245, 'auto') }}" />{% endif %}
+      {{ page.synopsis|safe }}
+      {# {% for edition in page.editions|slice(0,1) %} //REPLACEING WITH STRAIGHT BUY LINKS
+        {% include "templates/partials/buy-links-modal.html" %}
+      {% endfor %} #}
+
+
+            {% if editions %}
+                <div id="buying-information" class="clear">
+                {% include "templates/partials/buy-links.html" %}
+                </div>
+              {% endif %}
+
+      <ul class="listings inline">
+        {% for edition in page.editions|slice(0,1) %}
+
+          <li>
+            <strong>ISBN: </strong>
+            {{ edition.isbn }}
+          </li>
+          <li>
+            <strong>Publication Date: </strong>
+            {{ edition.publication_date|date('F d Y') }}
+          </li>
+        {% endfor %}
+      </ul>
+
+        {% assign author = page.author %}
+
+        {% if author %}
+
+          {% for author in author %}
+            <h2 style="margin-top:2em;">About {{ author.name }}</h2>
+
+            {{ author.copy|safe }}
+
+          {% endfor %}
+
+
+        {% endif %}
+
+
+
+
+
+      {% assign reviews = page.reviews_related_book|sort('publish_date', true)|slice(0,20) %}
+
+      {% if reviews %}<h2 style="margin-top:2em;">Praise for <em>{{ page.name }}</em></h2>{% endif %}
+         {% for review in reviews %} {# |slice(0,1) #}
+        <blockquote class="review spaced">
+              {{ review.copy|safe }}
+            {% include "templates/partials/format-quotes-attribution.html" %}
+        </blockquote>
+        {% endfor %}
+
+        {% if page.excerpt %}
+        <h2 id="excerpt" style="margin-top:3em;">Excerpt from <em>{{ page.name }}</em></h2>
+          {{ page.excerpt|safe }}
+        {% endif %}
+
+
+
+
+
+
+    </div>
+
+
+
+  </article>
+
+</div>
