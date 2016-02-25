@@ -1,7 +1,7 @@
 <article class="hentry {% if page.class %}{{page.class}}{% endif %}">
   <header>
     {% if page.title %}
-    <h1 class="entry-title">{{page.title}}</h1>
+    <h1 class="entry-title">{{ page.title | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
     {% endif %}
     {% if page.subtitle %}
     <h2>
@@ -20,10 +20,20 @@
   </header>
 {% comment %}Content Below{% endcomment %}
   <div class="entry-content prose">
-
-    {{page.category}}
+    {% if page.category %}
+      <h6>
+        {{page.category}}
+      </h6>
+    {% endif %}
     {{ content }}
-    
+    {% if page.book %}
+      {% assign books = site.books %}
+      {% assign books = books | where: 'slug', page.book %}
+      {% for book in books %}
+        on <strong><a href="{{ book.url }}">{{ book.title }}</a></strong>
+      {% endfor %}
+    {% endif %}
+
     {% if page.include %}
       {% include {{page.include}} %}
     {% endif %}
