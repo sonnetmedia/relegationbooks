@@ -9,6 +9,7 @@ author: daniel-paisner
 cover_image_path: /uploads/cover-p-a-single-thing-happened_500.jpg
 featured_image_path: /uploads/bg-city2.jpg
 for_sale: true
+hide_indiebound: true
 distributor_link: 'http://www.itascabooks.com/a-single-happened-thing.html'
 editions:
   - paperback: '9780984764839'
