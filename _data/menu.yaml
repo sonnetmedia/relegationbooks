@@ -4,3 +4,6 @@
 -
  name: about/contact
  slug: /about/
+-
+ name: books
+ slug: /books/
