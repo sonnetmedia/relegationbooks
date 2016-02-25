@@ -1,4 +1,5 @@
 ---
 name: Daniel Paisner
-slug: dallas-hudgens
+slug: daniel-paisner
 ---
+
