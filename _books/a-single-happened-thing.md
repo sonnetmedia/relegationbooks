@@ -7,7 +7,7 @@ genre: Fiction
 description: ''
 author: dallas-hudgens
 cover_image_path: /uploads/cover-p-a-single-thing-happened.jpg
-featured_image_path: /uploads/bg-city.jpg
+featured_image_path: /uploads/bg-city2.jpg
 for_sale: true
 distributor_link: 'http://www.itascabooks.com/a-single-happened-thing.html'
 editions:
