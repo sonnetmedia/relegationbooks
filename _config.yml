@@ -3,7 +3,8 @@ title: Relegation Books
 email: your-email@domain.com
 description: Craft publishing literary fiction of fine vintage
 baseurl: "" # the subpath of your site, e.g. /blog
-url: http://www.relegationbooks.com/
+# url: http://www.relegationbooks.com/
+url: http://staging-budparr.sonnetmedia.com/
 # image_url: http://thenewdynamic.imgix.net
 brand_image: /static/images/relegation-and-tagline.png
 mailchimp_url: "http://relegationbooks.us8.list-manage.com/subscribe/post?u=e523bff16336ae35c104a9fdf&amp;id=78c4197037"
