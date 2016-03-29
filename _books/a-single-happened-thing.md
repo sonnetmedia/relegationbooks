@@ -3,7 +3,7 @@ title: A Single Happened Thing
 subtitle: ''
 slug: a-single-happened-thing
 # publication_date: 2016-04-05T00:00:00.000Z
-publication_date: 2016-04-05T00:00:00.000Z
+publication_date: 2016-03-28T00:00:00.000Z
 genre: Fiction
 description: ''
 author: daniel-paisner
