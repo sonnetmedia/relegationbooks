@@ -14,6 +14,7 @@ hide_indiebound: false
 distributor_link: 'http://www.itascabooks.com/a-single-happened-thing.html'
 editions:
   - paperback: '9780984764839'
+  - ebook: 9780984764853
 ---
 
 “*I would never witness anything interesting. I would never write anything beyond memos and flap copy and travel itineraries. I would simply love my wife and my daughters and hold them close and continue to take in meaningless midweek doubleheaders and mismanage the selling strategies of our midlist titles and ride along whatever middling currents I could manage until I washed up on some predictable shore.*”
