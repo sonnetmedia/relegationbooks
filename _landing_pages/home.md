@@ -1,12 +1,14 @@
 ---
 permalink: /
 featured_image_path: /uploads/bg-cocktail.jpg
-include: 'books/list.html'
+include: books/list.html
 number_of_books_to_show: 2
 ---
+
+
 ##### Latest News
 
-##### [April 2016: A Single Happened Thing, a novel by Daniel Paisner](http://www.danielpaisner.com/works.htm)
+##### April 2016: A Single Happened Thing, a novel by Daniel Paisner
 
 ##### [October 2016: The Loved Ones, a novel by Sonya Chung](http://sonyachung.com/bio/)
 
@@ -18,7 +20,7 @@ number_of_books_to_show: 2
 
 ##### [An Interview with Ronna Wineberg at The Millions](http://www.themillions.com/2014/09/everything-changes-an-interview-with-ronna-wineberg.html)
 
-##### [On Bittersweet Place included on The Millions’ “Most Anticipated” list.](http://www.themillions.com/2014/07/most-anticipated-the-great-second-half-2014-book-preview.html)
+##### On Bittersweet Place included on The Millions’ “Most Anticipated” list.
 
 ##### [Washingtonian.com reports on Relegation Books imprint Stillhouse Press](http://www.washingtonian.com/blogs/capitalcomment/books/relegation-books-launches-student-run-imprint-at-gmu.php)
 
