@@ -1,7 +1,7 @@
 ul.links {
   padding: 0;
   margin:1em 0;
-  
+
 }
 
 .links li{
@@ -15,6 +15,15 @@ text-align: center;
   &.hover {
     background-color: black;
     color: red;
+  }
+
+}
+ul.links li.buy-direct {
+  font-size: 1em;
+  background-color: steelblue;
+  color: white;
+  &:hover {
+    background-color: black;
   }
 }
 
