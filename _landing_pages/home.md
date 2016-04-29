@@ -12,8 +12,6 @@ number_of_books_to_show: 2
 
 ##### [The Forward reviews On Bittersweet Place](http://forward.com/the-assimilator/206589/growing-up-in-jazz-age-chicago/)
 
-##### [Excerpt from On Bittersweet Place at Bloom](http://bloom-site.com/2014/09/15/an-excerpt-from-ronna-winebergs-on-bittersweet-place/)
-
 ##### [Review of On Bittersweet Place by The Jewish Book Council](http://www.jewishbookcouncil.org/book/on-bittersweet-place)
 
 ##### [An Interview with Ronna Wineberg at The Millions](http://www.themillions.com/2014/09/everything-changes-an-interview-with-ronna-wineberg.html)
