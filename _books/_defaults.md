@@ -1,8 +1,7 @@
 ---
 title:
 subtitle:
-slug:
-date: 2016-01-01T12:00:00.000Z
+publication_date: 2016-01-01T12:00:00.000Z
 genre:
 description:
 author:
