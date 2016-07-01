@@ -1,7 +1,7 @@
 ---
 title: 'Nayomi Munaweera, author of *What Lies Between Us*'
 published: true
-date: 2016-07-01T00:00:00.000Z
+date: 2016-06-30T00:00:00.000Z
 category: review
 book: a-single-happened-thing
 ---
