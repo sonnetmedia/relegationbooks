@@ -6,7 +6,7 @@ genre: Fiction
 description:
 author: sonya-chung
 cover_image_path: /uploads/cover-the-loved-ones.jpg
-featured_image_path: /uploads/washington-dc.jpeg
+featured_image_path: /uploads/paris.jpeg
 for_sale: true
 distributor_link: 'http://www.itascabooks.com/the-loved-ones.html'
 editions:
