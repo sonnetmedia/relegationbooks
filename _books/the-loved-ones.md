@@ -1,7 +1,7 @@
 ---
 title: The Loved Ones
 subtitle: '“We succeed only, ever, at sorrow and love.”'
-publication_date: 2016-10-16T00:00:00.000Z
+publication_date: 2016-10-18T00:00:00.000Z
 genre: Fiction
 description:
 author: sonya-chung
