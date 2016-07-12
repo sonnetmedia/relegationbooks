@@ -1,8 +1,8 @@
 ---
 permalink: /
 featured_image_path: /uploads/bg-cocktail.jpg
-include: books/list.html
 number_of_books_to_show: 2
+layout: home
 ---
 
 

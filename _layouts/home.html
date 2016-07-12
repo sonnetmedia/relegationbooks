@@ -2,4 +2,22 @@
 layout: default
 section: page
 ---
-{% include articles/article.html %}
+<article class="hentry {% if page.class %}{{page.class}}{% endif %}">
+  
+
+  <div class="entry-content prose">
+    {{ content }}
+  </div>
+
+
+  <div class="entry-content prose">
+        <div>
+          {% include books/list.html %}
+        </div>
+  </div>
+
+
+
+
+
+</article>
