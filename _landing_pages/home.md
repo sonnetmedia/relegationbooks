@@ -21,7 +21,3 @@ layout: home
 ##### [Read about the origin of Relegation Books at The Millions](http://www.themillions.com/2012/04/adventures-in-self-publishing-dallas-hudgens-wake-up-were-here.html)
 
 [Test Link, please ignore](http://www.huffingtonpost.com)
-
----
-
-### Out Now
