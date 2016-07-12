@@ -3,7 +3,8 @@ layout: default
 section: page
 ---
 <article class="hentry {% if page.class %}{{page.class}}{% endif %}">
-    <div class="entry-content prose">
+  <h3>Latest News</h3>
+    <div class="entry-content prose home-page-links">
     {{ content }}
   </div>
   <div class="entry-content prose" style="margin-top:3em;">
@@ -12,3 +13,10 @@ section: page
     
   </div>
 </article>
+<style type="text/css">
+  
+.home-page-links a{
+  font-weight:bold;
+  font-size: 1.25em;
+}
+</style>
