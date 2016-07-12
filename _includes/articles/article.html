@@ -1,8 +1,10 @@
 <article class="hentry {% if page.class %}{{page.class}}{% endif %}">
   <header>
-    {% if page.title %}
-    <h1 class="entry-title">{{ page.title | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
-    {% endif %}
+    {% unless page.title == 'Home' %}
+      {% if page.title %}
+        <h1 class="entry-title">{{ page.title | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
+      {% endif %}
+    {% endunless %}
     {% if page.subtitle %}
     <h2>
       {{page.subtitle}}
