@@ -10,4 +10,4 @@ featured_image_path: /uploads/bg-hero-cocktail.jpg
 
 &nbsp;
 
-## All books available from Itasca www.itascabooks.com and Ingram
+## All books available from [Itasca](www.itascabooks.com)&nbsp;and Ingram
