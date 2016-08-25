@@ -4,10 +4,8 @@ featured_image_path: /uploads/bg-hero-cocktail.jpg
 ---
 
 
+#### email: relegation.books@gmail.com
+
 #### Follow us on Twitter: [twitter.com/@relegationbooks](http://twitter.com/relegationbooks)
 
-### [relegation.books@gmail.com](mailto:relegation.books@gmail.com)
-
-&nbsp;
-
-## All books available from [Itasca](http://www.itascabooks.com/)&nbsp;and Ingram
+All books available from [Itasca](http://www.itascabooks.com/)&nbsp;and Ingram
