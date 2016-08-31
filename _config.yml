@@ -44,6 +44,7 @@ future: true
 # PRODUCTION
 google_analytics_id: UA-50141097-1
 bust_css_cache: true
+version: 3.2.1
 # CONTENT
 collections:
   landing_pages:
