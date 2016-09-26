@@ -6,13 +6,11 @@ layout: home
 ---
 
 
-[October 2016: The Loved Ones, a novel by Sonya Chung](http://sonyachung.com/bio/)
+[Kirkus Reviews starred review of The Loved Ones](https://www.kirkusreviews.com/book-reviews/sonya-chung/the-loved-ones-chung/)
 
 [The Forward reviews On Bittersweet Place](http://forward.com/the-assimilator/206589/growing-up-in-jazz-age-chicago/)
 
 [Review of On Bittersweet Place by The Jewish Book Council](http://www.jewishbookcouncil.org/book/on-bittersweet-place)
-
-[An Interview with Ronna Wineberg at The Millions](http://www.themillions.com/2014/09/everything-changes-an-interview-with-ronna-wineberg.html)
 
 [Washingtonian.com reports on Relegation Books imprint Stillhouse Press](http://www.washingtonian.com/blogs/capitalcomment/books/relegation-books-launches-student-run-imprint-at-gmu.php)
 
