@@ -8,6 +8,8 @@ layout: home
 
 [Kirkus Reviews starred review of The Loved Ones](https://www.kirkusreviews.com/book-reviews/sonya-chung/the-loved-ones-chung/)
 
+[Booklist starred review of The Loved Ones](http://www.booklistonline.com/The-Loved-Ones-Sonya-Chung/pid=8285287)
+
 [The Forward reviews On Bittersweet Place](http://forward.com/the-assimilator/206589/growing-up-in-jazz-age-chicago/)
 
 [Review of On Bittersweet Place by The Jewish Book Council](http://www.jewishbookcouncil.org/book/on-bittersweet-place)
