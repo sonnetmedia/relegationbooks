@@ -11,7 +11,7 @@ cover_image_path: /uploads/cover-p-a-single-thing-happened_500.jpg
 featured_image_path: /uploads/bg-city2.jpg
 for_sale: true
 hide_indiebound: false
-distributor_link: 'http://www.itascabooks.com/a-single-happened-thing.html'
+distributor_link: 'https://itascabooks.com/a-single-happened-thing/'
 editions:
   - paperback: '9780984764839'
   - ebook: 9780984764853
