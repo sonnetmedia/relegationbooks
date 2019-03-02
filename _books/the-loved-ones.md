@@ -8,7 +8,7 @@ author: sonya-chung
 cover_image_path: /uploads/cover-the-loved-ones.jpg
 featured_image_path: /uploads/hands.jpeg
 for_sale: true
-distributor_link: 'https://www.itascabooks.com/the-loved-ones.html'
+distributor_link: 'https://itascabooks.com/the-loved-ones/'
 editions:
   - paperback: '9780984764846'
   - hardcover:
