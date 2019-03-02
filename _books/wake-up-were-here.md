@@ -8,7 +8,7 @@ description: ""
 cover_image_path: /uploads/cover-p-wake-up-were-here.jpg
 author: dallas-hudgens
 for_sale: true
-distributor_link: http://www.itascabooks.com/wake-up-we-re-here.html
+distributor_link: https://itascabooks.com/wake-up-we-re-here/
 editions:
   - paperback: 9780984764808
 ---
