@@ -9,7 +9,7 @@ author: ronna-wineberg
 cover_image_path: /uploads/cover-p-on-bittersweet-place.jpg
 featured_image_path: /uploads/bg-on-bittersweet-place.jpg
 for_sale: true
-distributor_link: http://www.itascabooks.com/on-bittersweet-place.html
+distributor_link: https://itascabooks.com/on-bittersweet-place/
 editions:
   - paperback: 9780984764815
   - ebook: 9780984764822
